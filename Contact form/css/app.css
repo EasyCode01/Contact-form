@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', serif;
+  
+}
+body {
+    background-color: #01434661;
+}
+
+  .sectionOne {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+form {
+    max-width: 400px;
+    padding: 30px;
+    margin:40px auto;
+    box-shadow: 2px 4px 7px rgba(0,0,0,.6);
+    border-radius: 6px;
+}
+#title {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.formDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+input, textarea {
+    margin-bottom: 5px;
+    padding: 6px 8px;
+    border:1px solid #014246;
+    font-size: 1.1rem;
+    background-color: rgb(248, 245, 245);
+
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+button{
+    border:none;
+    padding: 6px 20px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    transition: 500ms all;
+    cursor: pointer;
+}
+.send {
+    background-color: rgba(86, 255, 86, 0.812);
+}
+.send:hover {
+    background-color: rgb(86, 255, 86);
+
+}
+.reset {
+    background-color: rgba(255, 50, 50, 0.678);
+    color: #fff;
+}
+.reset:hover {
+    background-color: rgb(255, 50, 50);
+
+}
+
+.sectionTwo {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+tr {
+    border-bottom: 1px solid #ccc;
+    
+}
+tr:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    overflow: hidden;
+}
+th,td {
+    padding:6px 6px;
+   
+}
+    tr td:nth-child(3){
+      
+        width: 40%;
+    }
+
+tr th:nth-child(1), tr td:nth-child(1) {
+    width:15%;
+}
+
+.bi {
+    font-size: 1rem;
+
+}
+.bi-pencil-square {
+    color:green;
+}
+.bi-trash {
+    color:red;
+}
+
+
+@media (max-width:568px) {
+
+    .sectionOne {
+        max-width: 90%;
+        margin: auto;
+       
+    }
+    form {
+        padding: 12px;
+    }
+ 
+    .sectionTwo {
+        max-width: 90%;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .buttons {
+        gap:20px;
+    }
+    
+    
+ 
+    
+}

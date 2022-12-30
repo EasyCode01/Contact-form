@@ -1,0 +1,20 @@
+Variable declaration
+Stop inherent behaviour of the form
+Add Eventlistners for each of the buttons
+validate user input (success || failure)
+on failure alert error
+on success accept Data
+accept data as as objects   
+empty inputFields
+push data to the local storage
+getItems from the local storage
+Post the data (using afunction) inside the table
+for optimized storage, convert the objects to array of objects
+map the array element inside the table (we could explore destructuring)
+deleteField function
+editField function
+on deleteField, spliceData(), update local storage
+on editField, update local storage using deleteField(e) function
+
+
+
